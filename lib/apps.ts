@@ -15,6 +15,20 @@ export const APPS: AppItem[] = [
     createdAt: "2026-06-25",
     usesN8N: true,
   },
+  {
+    id: "app-002",
+    name: "Windows Analysis",
+    description:
+      "Store window compliance checker powered by AI. Analyze window display photos and instantly verify whether the execution meets the brand's Guidelines 2.0 standards — from layout and product placement to visual merchandising rules.",
+    category: "Analyse & Reporting",
+    status: "active",
+    url: "https://gspoc.app.n8n.cloud/webhook/vitrine",
+    icon: "CheckSquare",
+    color: "#8B5CF6",
+    tags: ["Compliance", "AI", "Retail", "Visual Merchandising"],
+    createdAt: "2026-06-25",
+    usesN8N: true,
+  },
 ];
 
 export const CATEGORIES = [
