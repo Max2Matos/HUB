@@ -29,6 +29,20 @@ export const APPS: AppItem[] = [
     createdAt: "2026-06-25",
     usesN8N: true,
   },
+  {
+    id: "app-003",
+    name: "Store Process Assistant",
+    description:
+      "Copilot agent consolidating all retail processes in one place. Ask any question about in-store procedures and get instant, accurate answers grounded in the existing process documentation — no more digging through manuals.",
+    category: "Productivité",
+    status: "active",
+    url: "https://m365.cloud.microsoft/chat/?titleId=T_f19c6eee-dcff-3b46-bdad-19418b1cf1d2&source=embedded-builder",
+    icon: "MessageSquare",
+    color: "#10B981",
+    tags: ["Copilot", "Retail", "Process", "Q&A"],
+    createdAt: "2026-06-25",
+    usesN8N: false,
+  },
 ];
 
 export const CATEGORIES = [
